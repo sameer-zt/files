@@ -1,0 +1,324 @@
+[2025-11-01 11:12:23.509581389+0530][message_stream.cpp:213][INFO] Connected to MessageStream : scheduler
+[2025-11-01 11:12:23.509675442+0530][environment.cpp:59][INFO] Registering thread id 140334143100480 process id 2002190 as name linehandler
+[2025-11-01 11:12:23.509687484+0530][core_allocator.cpp:58][INFO] Trying to pin ZRThread: 
+                                                                  [ name: linehandler ]
+                                                                  [ core_type : any ]
+                                                                  [ priority : none ]
+                                                                  [ core id : -1 ]
+
+[2025-11-01 11:12:23.509698940+0530][message_stream.cpp:213][INFO] Connected to MessageStream : linehandler
+[2025-11-01 11:12:24.517598845+0530][message_stream.cpp:218][INFO] Closed connection to MessageStream : logger
+[2025-11-01 11:12:24.517633493+0530][thread_info.cpp:90][INFO] BEGIN pre-thread function:[logger]
+[2025-11-01 11:12:24.517639561+0530][thread_info.cpp:94][INFO] END pre-thread function:[logger]
+[2025-11-01 11:12:24.517644093+0530][thread_info.cpp:95][INFO] Start thread:[logger]
+[2025-11-01 11:12:24.517648761+0530][logger.cpp:81][INFO] Logger::running
+[2025-11-01 11:12:24.528906462+0530][message_stream.cpp:218][INFO] Closed connection to MessageStream : main
+[2025-11-01 11:12:24.528918104+0530][channel_mgr.cpp:580][INFO] Dispatcher::add_channel adding channel to Dispatcher[MAIN] << Channel[{Channel: name=FastInbox-MAIN, type=POLL}]
+[2025-11-01 11:12:24.528919057+0530][channel_mgr.cpp:580][INFO] Dispatcher::add_channel adding channel to Dispatcher[MAIN] << Channel[{Channel: name=BoostIOServiceChannel-BoostChannel, type=POLL}]
+[2025-11-01 11:12:24.528919983+0530][channel_mgr.cpp:580][INFO] Dispatcher::add_channel adding channel to Dispatcher[MAIN] << Channel[{Channel: name=OrderBookChannel}]
+[2025-11-01 11:12:24.528920607+0530][channel_mgr.cpp:580][INFO] Dispatcher::add_channel adding channel to Dispatcher[MAIN] << Channel[{Channel: name=FeedStatusChannel}]
+[2025-11-01 11:12:24.528921457+0530][channel_mgr.cpp:580][INFO] Dispatcher::add_channel adding channel to Dispatcher[MAIN] << Channel[{Channel: name=PacketChannel}]
+[2025-11-01 11:12:24.528923912+0530][channel_mgr.cpp:628][INFO] Start loop for ChannelManager[MAIN]
+                                                                 can add sched events:1
+                                                                 num_poll_channel:[5] 
+                                                                 Poll Channels:[FastInbox-MAIN, BoostIOServiceChannel-BoostChannel, OrderBookChannel, FeedStatusChannel, PacketChannel]
+                                                                
+
+[2025-11-01 11:12:24.528924695+0530_THREAD_main][channel_mgr.cpp:775][INFO] Start DispatcherLoop: num_poll_chans=[5], enable_perf=[0], allow_sched=[1], has_event_time=[1]
+[2025-11-01 11:12:24.528926794+0530_THREAD_main][ioservice_channel.cpp:19][INFO] Polling is too slow! count: 1, cycle_diff: 590468985815299
+                                                                                 
+
+[2025-11-01 11:12:24.528926794+0530_THREAD_main][RunnerOMS.cpp:88][INFO] on_feed_status_update: Start of day recovery done
+[2025-11-01 11:12:24.538550658+0530][core_allocator.cpp:68][INFO] mds thread wasn't pinned
+[2025-11-01 11:12:24.538553638+0530][message_stream.cpp:218][INFO] Closed connection to MessageStream : mds
+[2025-11-01 11:12:24.538568649+0530][thread_info.cpp:90][INFO] BEGIN pre-thread function:[mds]
+[2025-11-01 11:12:24.538570535+0530][thread_info.cpp:94][INFO] END pre-thread function:[mds]
+[2025-11-01 11:12:24.538571203+0530][thread_info.cpp:95][INFO] Start thread:[mds]
+[2025-11-01 11:12:24.538573559+0530][channel_mgr.cpp:580][INFO] Dispatcher::add_channel adding channel to Dispatcher[MARKET_DATA] << Channel[{Channel: name=FastInbox-MARKET_DATA, type=POLL}]
+[2025-11-01 11:12:24.538575102+0530][channel_mgr.cpp:628][INFO] Start loop for ChannelManager[MARKET_DATA]
+                                                                 can add sched events:0
+                                                                 num_poll_channel:[1] 
+                                                                 Poll Channels:[FastInbox-MARKET_DATA]
+                                                                
+
+[2025-11-01 11:12:24.538575731+0530][channel_mgr.cpp:676][INFO] Stop loop for ChannelManager[MARKET_DATA]
+[2025-11-01 11:12:24.538576550+0530][thread_info.cpp:97][INFO] Stop thread:[mds]
+[2025-11-01 11:12:24.538579461+0530][thread_info.cpp:98][INFO] BEGIN post-thread function:[mds]
+[2025-11-01 11:12:24.538580099+0530][thread_info.cpp:102][INFO] END post-thread function:[mds]
+[2025-11-01 11:12:24.549713553+0530][message_stream.cpp:218][INFO] Closed connection to MessageStream : scheduler
+[2025-11-01 11:12:24.549732156+0530][thread_info.cpp:90][INFO] BEGIN pre-thread function:[scheduler]
+[2025-11-01 11:12:24.549735898+0530][util.cpp:41][INFO] Shutdown as end_time is set to:2025-11-01 18:40:00.000000000+0530
+[2025-11-01 11:12:24.549737429+0530][thread_info.cpp:94][INFO] END pre-thread function:[scheduler]
+[2025-11-01 11:12:24.549739206+0530][thread_info.cpp:95][INFO] Start thread:[scheduler]
+[2025-11-01 11:12:24.549740283+0530][channel_mgr.cpp:580][INFO] Dispatcher::add_channel adding channel to Dispatcher[SCHED] << Channel[{Channel: name=FastInbox-SCHED, type=POLL}]
+[2025-11-01 11:12:24.549740941+0530][channel_mgr.cpp:580][INFO] Dispatcher::add_channel adding channel to Dispatcher[SCHED] << Channel[{Channel: name=perfprofiler_report, type=SCHEDULED}]
+[2025-11-01 11:12:24.549783214+0530][channel_mgr.cpp:580][INFO] Dispatcher::add_channel adding channel to Dispatcher[SCHED] << Channel[{Channel: name=RunnerOMSTimer:Type=0,ID=0, type=SCHEDULED}]
+[2025-11-01 11:12:24.549808855+0530][channel_mgr.cpp:580][INFO] Dispatcher::add_channel adding channel to Dispatcher[SCHED] << Channel[{Channel: name=nse_mds_heartbeat, type=SCHEDULED}]
+[2025-11-01 11:12:24.549835239+0530][channel_mgr.cpp:628][INFO] Start loop for ChannelManager[SCHED]
+                                                                 can add sched events:1
+                                                                 num_poll_channel:[1] 
+                                                                 Poll Channels:[FastInbox-SCHED]
+                                                                
+
+[2025-11-01 11:12:24.549835862+0530_SCHED][scheduler.cpp:139][INFO] [FAST][TOTAL_ORDER_STATS { TotalOrderIDs: 0, MatchedOrderIDs: 0, ActiveOrderIDs: 0 }
+                                                                    ADAPTER_STATS_OPEN_ORDERS { Adapter-0: 0 }
+                                                                    ADAPTER_STATS_AVAIL_BANDWIDTH { Adapter-0: 35 }
+                                                                    ADAPTER_STATS_ORDERS_SENT { Adapter-0: 0 }
+                                                                    ]
+
+[2025-11-01 11:12:24.549835862+0530_SCHED][test_mock_strat.x.cpp:25][INFO] 10s periodic log at:2025-11-01 11:12:23.488516403+0530 : elapsed wall time: 1061388321ns
+[2025-11-01 11:12:24.559395207+0530][core_allocator.cpp:68][INFO] linehandler thread wasn't pinned
+[2025-11-01 11:12:24.559398179+0530][message_stream.cpp:218][INFO] Closed connection to MessageStream : linehandler
+[2025-11-01 11:12:24.559416395+0530][thread_info.cpp:90][INFO] BEGIN pre-thread function:[linehandler]
+[2025-11-01 11:12:24.559418293+0530][thread_info.cpp:94][INFO] END pre-thread function:[linehandler]
+[2025-11-01 11:12:24.559419089+0530][thread_info.cpp:95][INFO] Start thread:[linehandler]
+[2025-11-01 11:12:24.559420602+0530][channel_mgr.cpp:580][INFO] Dispatcher::add_channel adding channel to Dispatcher[LINE_HANDLER] << Channel[{Channel: name=FastInbox-LINE_HANDLER, type=POLL}]
+[2025-11-01 11:12:24.559422043+0530][channel_mgr.cpp:628][INFO] Start loop for ChannelManager[LINE_HANDLER]
+                                                                 can add sched events:0
+                                                                 num_poll_channel:[1] 
+                                                                 Poll Channels:[FastInbox-LINE_HANDLER]
+                                                                
+
+[2025-11-01 11:12:24.559422709+0530][channel_mgr.cpp:676][INFO] Stop loop for ChannelManager[LINE_HANDLER]
+[2025-11-01 11:12:24.559423388+0530][thread_info.cpp:97][INFO] Stop thread:[linehandler]
+[2025-11-01 11:12:24.559425195+0530][thread_info.cpp:98][INFO] BEGIN post-thread function:[linehandler]
+[2025-11-01 11:12:24.559425562+0530][thread_info.cpp:102][INFO] END post-thread function:[linehandler]
+[2025-11-01 11:12:25.529298339+0530_SCHED][scheduler.cpp:139][INFO] [FAST][TOTAL_ORDER_STATS { TotalOrderIDs: 0, MatchedOrderIDs: 0, ActiveOrderIDs: 0 }
+                                                                    ADAPTER_STATS_OPEN_ORDERS { Adapter-0: 0 }
+                                                                    ADAPTER_STATS_AVAIL_BANDWIDTH { Adapter-0: 35 }
+                                                                    ADAPTER_STATS_ORDERS_SENT { Adapter-0: 0 }
+                                                                    ]
+
+[2025-11-01 11:12:26.529298433+0530_SCHED][scheduler.cpp:139][INFO] [FAST][TOTAL_ORDER_STATS { TotalOrderIDs: 0, MatchedOrderIDs: 0, ActiveOrderIDs: 0 }
+                                                                    ADAPTER_STATS_OPEN_ORDERS { Adapter-0: 0 }
+                                                                    ADAPTER_STATS_AVAIL_BANDWIDTH { Adapter-0: 35 }
+                                                                    ADAPTER_STATS_ORDERS_SENT { Adapter-0: 0 }
+                                                                    ]
+
+[2025-11-01 11:12:27.529298233+0530_SCHED][scheduler.cpp:139][INFO] [FAST][TOTAL_ORDER_STATS { TotalOrderIDs: 0, MatchedOrderIDs: 0, ActiveOrderIDs: 0 }
+                                                                    ADAPTER_STATS_OPEN_ORDERS { Adapter-0: 0 }
+:
+
+q[2025-11-01 11:12:23.509581389+0530][message_stream.cpp:213][INFO] Connected to MessageStream : scheduler
+[2025-11-01 11:12:23.509675442+0530][environment.cpp:59][INFO] Registering thread id 140334143100480 process id 2002190 as name linehandler
+[2025-11-01 11:12:23.509687484+0530][core_allocator.cpp:58][INFO] Trying to pin ZRThread: 
+                                                                  [ name: linehandler ]
+                                                                  [ core_type : any ]
+                                                                  [ priority : none ]
+                                                                  [ core id : -1 ]
+
+[2025-11-01 11:12:23.509698940+0530][message_stream.cpp:213][INFO] Connected to MessageStream : linehandler
+[2025-11-01 11:12:24.517598845+0530][message_stream.cpp:218][INFO] Closed connection to MessageStream : logger
+[2025-11-01 11:12:24.517633493+0530][thread_info.cpp:90][INFO] BEGIN pre-thread function:[logger]
+[2025-11-01 11:12:24.517639561+0530][thread_info.cpp:94][INFO] END pre-thread function:[logger]
+[2025-11-01 11:12:24.517644093+0530][thread_info.cpp:95][INFO] Start thread:[logger]
+[2025-11-01 11:12:24.517648761+0530][logger.cpp:81][INFO] Logger::running
+[2025-11-01 11:12:24.528906462+0530][message_stream.cpp:218][INFO] Closed connection to MessageStream : main
+[2025-11-01 11:12:24.528918104+0530][channel_mgr.cpp:580][INFO] Dispatcher::add_channel adding channel to Dispatcher[MAIN] << Channel[{Channel: name=FastInbox-MAIN, type=POLL}]
+[2025-11-01 11:12:24.528919057+0530][channel_mgr.cpp:580][INFO] Dispatcher::add_channel adding channel to Dispatcher[MAIN] << Channel[{Channel: name=BoostIOServiceChannel-BoostChannel, type=POLL}]
+[2025-11-01 11:12:24.528919983+0530][channel_mgr.cpp:580][INFO] Dispatcher::add_channel adding channel to Dispatcher[MAIN] << Channel[{Channel: name=OrderBookChannel}]
+[2025-11-01 11:12:24.528920607+0530][channel_mgr.cpp:580][INFO] Dispatcher::add_channel adding channel to Dispatcher[MAIN] << Channel[{Channel: name=FeedStatusChannel}]
+[2025-11-01 11:12:24.528921457+0530][channel_mgr.cpp:580][INFO] Dispatcher::add_channel adding channel to Dispatcher[MAIN] << Channel[{Channel: name=PacketChannel}]
+[2025-11-01 11:12:24.528923912+0530][channel_mgr.cpp:628][INFO] Start loop for ChannelManager[MAIN]
+                                                                 can add sched events:1
+                                                                 num_poll_channel:[5] 
+                                                                 Poll Channels:[FastInbox-MAIN, BoostIOServiceChannel-BoostChannel, OrderBookChannel, FeedStatusChannel, PacketChannel]
+                                                                
+
+[2025-11-01 11:12:24.528924695+0530_THREAD_main][channel_mgr.cpp:775][INFO] Start DispatcherLoop: num_poll_chans=[5], enable_perf=[0], allow_sched=[1], has_event_time=[1]
+[2025-11-01 11:12:24.528926794+0530_THREAD_main][ioservice_channel.cpp:19][INFO] Polling is too slow! count: 1, cycle_diff: 590468985815299
+                                                                                 
+
+[2025-11-01 11:12:24.528926794+0530_THREAD_main][RunnerOMS.cpp:88][INFO] on_feed_status_update: Start of day recovery done
+[2025-11-01 11:12:24.538550658+0530][core_allocator.cpp:68][INFO] mds thread wasn't pinned
+[2025-11-01 11:12:24.538553638+0530][message_stream.cpp:218][INFO] Closed connection to MessageStream : mds
+[2025-11-01 11:12:24.538568649+0530][thread_info.cpp:90][INFO] BEGIN pre-thread function:[mds]
+[2025-11-01 11:12:24.538570535+0530][thread_info.cpp:94][INFO] END pre-thread function:[mds]
+[2025-11-01 11:12:24.538571203+0530][thread_info.cpp:95][INFO] Start thread:[mds]
+[2025-11-01 11:12:24.538573559+0530][channel_mgr.cpp:580][INFO] Dispatcher::add_channel adding channel to Dispatcher[MARKET_DATA] << Channel[{Channel: name=FastInbox-MARKET_DATA, type=POLL}]
+[2025-11-01 11:12:24.538575102+0530][channel_mgr.cpp:628][INFO] Start loop for ChannelManager[MARKET_DATA]
+                                                                 can add sched events:0
+[2025-11-01 11:12:23.466322883+0530][message_stream.cpp:213][INFO] Connected to MessageStream : mockline2
+[2025-11-01 11:12:23.466326488+0530][refdatahelper.cpp:1213][INFO] Added subscription for venue_NSE for instrument: exchange: NSE zanskar_id: 3998 zanskar_name: OPT_BANKNIFTY_20251125_CE_7340000 asset: BANKNIFTY derivative_type: OPTION option type: CALL token: 35011 product_id: 0 strike: 7340000 stream_id: 10 lot_size: 35 tick_size: 5 expiry: 20251125 tag: W.0 NSE_expiry: 1448548200 exch_name: BANKNIFTY25NOV73400CE, high_pricrange: 2005 low_pricerange: 5 venue: NSE category: INDEX_FO prev_openintrest: 0 prev_closing_price: 0 asset_idx: 1
+[2025-11-01 11:12:23.466355753+0530][refdatahelper.cpp:1213][INFO] Added subscription for venue_NSE for instrument: exchange: NSE zanskar_id: 3999 zanskar_name: OPT_BANKNIFTY_20251125_PE_7340000 asset: 
+[2025-11-01 11:12:23.493769099+0530][adapter_login_nse.cpp:231][INFO] [AdapterNSE-0] Received message with txn_code: UPDATE_LOCALDB_HEADER
+[2025-11-01 11:12:23.493772505+0530][adapter_login_nse.cpp:578][INFO] [AdapterNSE-0] RECEIVED: [MS_UPDATE_LDB_HEADER { MessageHeader: MSG_HEADER { TransactionCode: UPDATE_LOCALDB_HEADER, LogTime: 0, AlphaChar: ^@^@, TraderId: 10170, AlphaChar[0]: 0, ErrorCode: 0, TimeStamp: 94795382357580, TimeStamp1: ^@^@^@^@^@^@^@^@, TimeStamp2: ^@^@^@^@^@^@^@^@, StreamNoByte7: 0, StreamNoByte0: 0, MessageLength: 42 } }]
+[2025-11-01 11:12:23.493783726+0530][channel.cpp:152][INFO] Snapshot Recovery done
+[2025-11-01 11:12:23.493789364+0530]ESC[44;37;1m [channel.cpp:153][NOTICE] FO_MOCKESC[0m
+[2025-11-01 11:12:23.493793824+0530][channel.cpp:30][INFO] Adding subscription to publisher_Mock for feed status
+[2025-11-01 11:12:23.493811322+0530][file_util.cpp:155][INFO] Open file:[Path:["/home/zanskar/ram_backed_file/meta/FO_MOCK_status.yaml"]]
+[2025-11-01 11:12:23.493847755+0530][adapter_login_nse.cpp:231][INFO] [AdapterNSE-0] Received message with txn_code: UPDATE_LOCALDB_DATA
+[2025-11-01 11:12:23.493851647+0530][adapter_login_nse.cpp:585][INFO] [AdapterNSE-0] RECEIVED: [MS_UPDATE_LDB_DATA { MessageHeader: MSG_HEADER { TransactionCode: UPDATE_LOCALDB_DATA, LogTime: 0, AlphaChar: ^@^@, TraderId: 10170, AlphaChar[0]: 0, ErrorCode: 0, TimeStamp: 94795382357580, TimeStamp1: ^@^@^@^@^@^@^@^@, TimeStamp2: ^@^@^@^@^@^@^@^@, StreamNoByte7: 0, StreamNoByte0: 0, MessageLength: 120 }, InnerMessageHeader: INNER_MSG_HEADER { TraderId: 10170, LogTime: 0, AlphaChar: ^@^@, TransactionCode: BCAST_INSTR_MSTR_CHG, ErrorCode: 0, TimeStamp: 94795382357580, TimeStamp1: , TimeStamp2: , MessageLength: 80 } }]
+[2025-11-01 11:12:23.493871693+0530][yaml_util.cpp:29][INFO] Processed document: #0
+[2025-11-01 11:12:23.493880035+0530][file_util.cpp:162][INFO] Close file:[Path:["/home/zanskar/ram_backed_file/meta/FO_MOCK_status.yaml"]]
+[2025-11-01 11:12:23.493885048+0530][file_util.cpp:611][INFO] Processed file:Path:["/home/zanskar/ram_backed_file/meta/FO_MOCK_status.yaml"]
+[2025-11-01 11:12:23.493915808+0530][adapter_login_nse.cpp:231][INFO] [AdapterNSE-0] Received message with txn_code: UPDATE_LOCALDB_DATA
+[2025-11-01 11:12:23.493919123+0530][adapter_login_nse.cpp:585][INFO] [AdapterNSE-0] RECEIVED: [MS_UPDATE_LDB_DATA { MessageHeader: MSG_HEADER { TransactionCode: UPDATE_LOCALDB_DATA, LogTime: 0, AlphaChar: ^@^@, TraderId: 10170, AlphaChar[0]: 0, ErrorCode: 0, TimeStamp: 94795382357580, TimeStamp1: ^@^@^@^@^@^@^@^@, TimeStamp2: ^@^@^@^@^@^@^@^@, StreamNoByte7: 0, StreamNoByte0: 0, MessageLength: 120 }, InnerMessageHeader: INNER_MSG_HEADER { TraderId: 10170, LogTime: 0, AlphaChar: ^@^@, TransactionCode: BCAST_INSTR_MSTR_CHG, ErrorCode: 0, TimeStamp: 94795382357580, TimeStamp1: , TimeStamp2: , MessageLength: 80 } }]
+[2025-11-01 11:12:23.493924057+0530]ESC[44;37;1m [file_util.cpp:372][NOTICE] Increase Ram backed file size from :8256 : 8256ESC[0m
+[2025-11-01 11:12:23.493977118+0530][adapter_login_nse.cpp:231][INFO] [AdapterNSE-0] Received message with txn_code: UPDATE_LOCALDB_DATA
+[2025-11-01 11:12:23.493980346+0530][adapter_login_nse.cpp:585][INFO] [AdapterNSE-0] RECEIVED: [MS_UPDATE_LDB_DATA { MessageHeader: MSG_HEADER { TransactionCode: UPDATE_LOCALDB_DATA, LogTime: 0, AlphaChar: ^@^@, TraderId: 10170, AlphaChar[0]: 0, ErrorCode: 0, TimeStamp: 94795382357580, TimeStamp1: ^@^@^@^@^@^@^@^@, TimeStamp2: ^@^@^@^@^@^@^@^@, StreamNoByte7: 0, StreamNoByte0: 0, MessageLength: 120 }, InnerMessageHeader: INNER_MSG_HEADER { TraderId: 10170, LogTime: 0, AlphaChar: ^@^@, TransactionCode: BCAST_INSTR_MSTR_CHG, ErrorCode: 0, TimeStamp: 94795382357580, TimeStamp1: , TimeStamp2: , MessageLength: 80 } }]
+[2025-11-01 11:12:23.494009303+0530][file_util.cpp:155][INFO] Open file:[Path:["/home/zanskar/ram_backed_file/logs/reader/20251101/algo-mock-FO_2002026_FO_MOCK_status.yaml"]]
+[2025-11-01 11:12:23.494026796+0530][file_util.cpp:162][INFO] Close file:[Path:["/home/zanskar/ram_backed_file/logs/reader/20251101/algo-mock-FO_2002026_FO_MOCK_status.yaml"]]
+[2025-11-01 11:12:23.494038514+0530][mmap_util.cpp:75][INFO] mmap file with params:{PROT=READ}:{Flag=SHARED:SHARED_VALIDATE:LOCKED:POPULATE}:offset=0:size=8256
+[2025-11-01 11:12:23.494040426+0530][adapter_login_nse.cpp:231][INFO] [AdapterNSE-0] Received message with txn_code: UPDATE_LOCALDB_DATA
+[2025-11-01 11:12:23.494050240+0530][adapter_login_nse.cpp:585][INFO] [AdapterNSE-0] RECEIVED: [MS_UPDATE_LDB_DATA { MessageHeader: MSG_HEADER { TransactionCode: UPDATE_LOCALDB_DATA, LogTime: 0, AlphaChar: ^@^@, TraderId: 10170, AlphaChar[0]: 0, ErrorCode: 0, TimeStamp: 94795382357580, TimeStamp1: ^@^@^@^@^@^@^@^@, TimeStamp2: ^@^@^@^@^@^@^@^@, StreamNoByte7: 0, StreamNoByte0: 0, MessageLength: 120 }, InnerMessageHeader: INNER_MSG_HEADER { TraderId: 10170, LogTime: 0, AlphaChar: ^@^@, TransactionCode: BCAST_INSTR_MSTR_CHG, ErrorCode: 0, TimeStamp: 94795382357580, TimeStamp1: , TimeStamp2: , MessageLength: 80 } }]
+[2025-11-01 11:12:23.494057514+0530][shm.cpp:101][INFO] Heartbeat detected: 2025-11-01 11:08:55.045137409+0530
+[2025-11-01 11:12:23.494064099+0530][channel.cpp:30][INFO] Adding subscription to publisher_Mock_packet for feed status
+[2025-11-01 11:12:23.494080179+0530][file_util.cpp:155][INFO] Open file:[Path:["/home/zanskar/ram_backed_file/meta/FO_MOCK_packet.yaml"]]
+[2025-11-01 11:12:23.494116871+0530][adapter_login_nse.cpp:231][INFO] [AdapterNSE-0] Received message with txn_code: UPDATE_LOCALDB_DATA
+[2025-11-01 11:12:23.494120167+0530][adapter_login_nse.cpp:585][INFO] [AdapterNSE-0] RECEIVED: [MS_UPDATE_LDB_DATA { MessageHeader: MSG_HEADER { TransactionCode: UPDATE_LOCALDB_DATA, LogTime: 0, AlphaChar: ^@^@, TraderId: 10170, AlphaChar[0]: 0, ErrorCode: 0, TimeStamp: 94795382357580, TimeStamp1: ^@^@^@^@^@^@^@^@, TimeStamp2: ^@^@^@^@^@^@^@^@, StreamNoByte7: 0, StreamNoByte0: 0, MessageLength: 120 }, InnerMessageHeader: INNER_MSG_HEADER { TraderId: 10170, LogTime: 0, AlphaChar: ^@^@, TransactionCode: BCAST_INSTR_MSTR_CHG, ErrorCode: 0, TimeStamp: 94795382357580, TimeStamp1: , TimeStamp2: , MessageLength: 80 } }]
+[2025-11-01 11:12:23.494140694+0530][yaml_util.cpp:29][INFO] Processed document: #0
+[2025-11-01 11:12:23.494148987+0530][file_util.cpp:162][INFO] Close file:[Path:["/home/zanskar/ram_backed_file/meta/FO_MOCK_packet.yaml"]]
+[2025-11-01 11:12:23.494153870+0530][file_util.cpp:611][INFO] Processed file:Path:["/home/zanskar/ram_backed_file/meta/FO_MOCK_packet.yaml"]
+[2025-11-01 11:12:23.496189620+0530][adapter_login_nse.cpp:231][INFO] [AdapterNSE-0] Received message with txn_code: UPDATE_LOCALDB_TRAILER
+[2025-11-01 11:12:23.496192378+0530][adapter_login_nse.cpp:592][INFO] [AdapterNSE-0] RECEIVED: [MS_UPDATE_LDB_TRAILER { MessageHeader: MSG_HEADER { TransactionCode: UPDATE_LOCALDB_TRAILER, LogTime: 0, AlphaChar: ^@^@, TraderId: 10170, AlphaChar[0]: 0, ErrorCode: 0, TimeStamp: 94795382357580, TimeStamp1: ^@^@^@^@^@^@^@^@, TimeStamp2: ^@^@^@^@^@^@^@^@, StreamNoByte7: 0, StreamNoByte0: 0, MessageLength: 42 } }]
+InnerMessageHeader: INNER_MSG_HEADER { TraderId: 10170, LogTime: 0, AlphaChar: ^@^@, TransactionCode: BCAST_INSTR_MSTR_CHG, ErrorCode: 0, TimeStamp: 94795382357580, TimeStamp1: , TimeStamp2
+: , MessageLength: 80 } }]
+[2025-11-01 11:12:23.494805683+0530][adapter_login_nse.cpp:231][INFO] [AdapterNSE-0] Received message with txn_code: UPDATE_LOCALDB_DATA
+[2025-11-01 11:12:23.494808477+0530][adapter_login_nse.cpp:585][INFO] [AdapterNSE-0] RECEIVED: [MS_UPDATE_LDB_DATA { MessageHeader: MSG_HEADER { TransactionCode: UPDATE_LOCALDB_DATA, LogTime: 0, Alp
+haChar: ^@^@, TraderId: 10170, AlphaChar[0]: 0, ErrorCode: 0, TimeStamp: 94795382357580, TimeStamp1: ^@^@^@^@^@^@^@^@, TimeStamp2: ^@^@^@^@^@^@^@^@, StreamNoByte7: 0, StreamNoByte0: 0, MessageLength
+: 120 }, InnerMessageHeader: INNER_MSG_HEADER { TraderId: 10170, LogTime: 0, AlphaChar: ^@^@, TransactionCode: BCAST_INSTR_MSTR_CHG, ErrorCode: 0, TimeStamp: 94795382357580, TimeStamp1: , TimeStamp2
+: , MessageLength: 80 } }]
+[2025-11-01 11:12:23.494867994+0530][adapter_login_nse.cpp:231][INFO] [AdapterNSE-0] Received message with txn_code: UPDATE_LOCALDB_DATA
+[2025-11-01 11:12:23.494870784+0530][adapter_login_nse.cpp:585][INFO] [AdapterNSE-0] RECEIVED: [MS_UPDATE_LDB_DATA { MessageHeader: MSG_HEADER { TransactionCode: UPDATE_LOCALDB_DATA, LogTime: 0, Alp
+haChar: ^@^@, TraderId: 10170, AlphaChar[0]: 0, ErrorCode: 0, TimeStamp: 94795382357580, TimeStamp1: ^@^@^@^@^@^@^@^@, TimeStamp2: ^@^@^@^@^@^@^@^@, StreamNoByte7: 0, StreamNoByte0: 0, MessageLength
+: 502 }, InnerMessageHeader: INNER_MSG_HEADER { TraderId: 10170, LogTime: 0, AlphaChar: ^@^@, TransactionCode: BCAST_INDEX_MSTR_CHG, ErrorCode: 0, TimeStamp: 94795382357580, TimeStamp1: , TimeStamp2
+:
+ MessageLength: 462 } }]
+[2025-11-01 11:12:23.495558105+0530][adapter_login_nse.cpp:231][INFO] [AdapterNSE-0] Received message with txn_code: UPDATE_LOCALDB_DATA
+[2025-11-01 11:12:23.495560871+0530][adapter_login_nse.cpp:585][INFO] [AdapterNSE-0] RECEIVED: [MS_UPDATE_LDB_DATA { MessageHeader: MSG_HEADER { TransactionCode: UPDATE_LOCALDB_DATA, LogTime: 0, Alp
+haChar: ^@^@, TraderId: 10170, AlphaChar[0]: 0, ErrorCode: 0, TimeStamp: 94795382357580, TimeStamp1: ^@^@^@^@^@^@^@^@, TimeStamp2: ^@^@^@^@^@^@^@^@, StreamNoByte7: 0, StreamNoByte0: 0, MessageLength
+: 502 }, InnerMessageHeader: INNER_MSG_HEADER { TraderId: 10170, LogTime: 0, AlphaChar: ^@^@, TransactionCode: BCAST_INDEX_MAP_TABLE, ErrorCode: 0, TimeStamp: 94795382357580, TimeStamp1: , TimeStamp
+2: , MessageLength: 462 } }]
+[2025-11-01 11:12:23.495627502+0530][adapter_login_nse.cpp:231][INFO] [AdapterNSE-0] Received message with txn_code: UPDATE_LOCALDB_DATA
+[2025-11-01 11:12:23.495630344+0530][adapter_login_nse.cpp:585][INFO] [AdapterNSE-0] RECEIVED: [MS_UPDATE_LDB_DATA { MessageHeader: MSG_HEADER { TransactionCode: UPDATE_LOCALDB_DATA, LogTime: 0, Alp
+haChar: ^@^@, TraderId: 10170, AlphaChar[0]: 0, ErrorCode: 0, TimeStamp: 94795382357580, TimeStamp1: ^@^@^@^@^@^@^@^@, TimeStamp2: ^@^@^@^@^@^@^@^@, StreamNoByte7: 0, StreamNoByte0: 0, MessageLength
+: 502 }, InnerMessageHeader: INNER_MSG_HEADER { TraderId: 10170, LogTime: 0, AlphaChar: ^@^@, TransactionCode: BCAST_INDEX_MAP_TABLE, ErrorCode: 0, TimeStamp: 94795382357580, TimeStamp1: , TimeStamp
+2: , MessageLength: 462 } }]
+[2025-11-01 11:12:23.495687700+0530][adapter_login_nse.cpp:231][INFO] [AdapterNSE-0] Received message with txn_code: UPDATE_LOCALDB_DATA
+[2025-11-01 11:12:23.495690479+0530][adapter_login_nse.cpp:585][INFO] [AdapterNSE-0] RECEIVED: [MS_UPDATE_LDB_DATA { MessageHeader: MSG_HEADER { TransactionCode: UPDATE_LOCALDB_DATA, LogTime: 0, Alp
+haChar: ^@^@, TraderId: 10170, AlphaChar[0]: 0, ErrorCode: 0, TimeStamp: 94795382357580, TimeStamp1: ^@^@^@^@^@^@^@^@, TimeStamp2: ^@^@^@^@^@^@^@^@, StreamNoByte7: 0, StreamNoByte0: 0, MessageLength
+: 502 }, InnerMessageHeader: INNER_MSG_HEADER { TraderId: 10170, LogTime: 0, AlphaChar: ^@^@, TransactionCode: BCAST_INDEX_MAP_TABLE, ErrorCode: 0, TimeStamp: 94795382357580, TimeStamp1: , TimeStamp
+2: , MessageLength: 462 } }]
+[2025-11-01 11:12:23.495756263+0530][adapter_login_nse.cpp:231][INFO] [AdapterNSE-0] Received message with txn_code: UPDATE_LOCALDB_DATA
+[2025-11-01 11:12:23.495760346+0530][adapter_login_nse.cpp:585][INFO] [AdapterNSE-0] RECEIVED: [MS_UPDATE_LDB_DATA { MessageHeader: MSG_HEADER { TransactionCode: UPDATE_LOCALDB_DATA, LogTime: 0, Alp
+haChar: ^@^@, TraderId: 10170, AlphaChar[0]: 0, ErrorCode: 0, TimeStamp: 94795382357580, TimeStamp1: ^@^@^@^@^@^@^@^@, TimeStamp2: ^@^@^@^@^@^@^@^@, StreamNoByte7: 0, StreamNoByte0: 0, MessageLength
+: 502 }, InnerMessageHeader: INNER_MSG_HEADER { TraderId: 10170, LogTime: 0, AlphaChar: ^@^@, TransactionCode: BCAST_INDEX_MAP_TABLE, ErrorCode: 0, TimeStamp: 94795382357580, TimeStamp1: , TimeStamp
+2: , MessageLength: 462 } }]
+[2025-11-01 11:12:23.495820732+0530][adapter_login_nse.cpp:231][INFO] [AdapterNSE-0] Received message with txn_code: UPDATE_LOCALDB_DATA
+[2025-11-01 11:12:23.495823498+0530][adapter_login_nse.cpp:585][INFO] [AdapterNSE-0] RECEIVED: [MS_UPDATE_LDB_DATA { MessageHeader: MSG_HEADER { TransactionCode: UPDATE_LOCALDB_DATA, LogTime: 0, Alp
+haChar: ^@^@, TraderId: 10170, AlphaChar[0]: 0, ErrorCode: 0, TimeStamp: 94795382357580, TimeStamp1: ^@^@^@^@^@^@^@^@, TimeStamp2: ^@^@^@^@^@^@^@^@, StreamNoByte7: 0, StreamNoByte0: 0, MessageLength
+: 502 }, InnerMessageHeader: INNER_MSG_HEADER { TraderId: 10170, LogTime: 0, AlphaChar: ^@^@, TransactionCode: BCAST_INDEX_MAP_TABLE, ErrorCode: 0, TimeStamp: 94795382357580, TimeStamp1: , TimeStamp
+2: ,
+MessageLength: 450 } }]
+[2025-11-01 11:12:23.495003384+0530][adapter_login_nse.cpp:231][INFO] [AdapterNSE-0] Received message with txn_code: UPDATE_LOCALDB_DATA
+[2025-11-01 11:12:23.495006216+0530][adapter_login_nse.cpp:585][INFO] [AdapterNSE-0] RECEIVED: [MS_UPDATE_LDB_DATA { MessageHeader: MSG_HEADER { TransactionCode: UPDATE_LOCALDB_DATA, LogTime: 0, Alp
+haChar: ^@^@, TraderId: 10170, AlphaChar[0]: 0, ErrorCode: 0, TimeStamp: 94795382357580, TimeStamp1: ^@^@^@^@^@^@^@^@, TimeStamp2: ^@^@^@^@^@^@^@^@, StreamNoByte7: 0, StreamNoByte0: 0, MessageLength
+: 502 }, InnerMessageHeader: INNER_MSG_HEADER { TraderId: 10170, LogTime: 0, AlphaChar: ^@^@, TransactionCode: BCAST_INDEX_MSTR_CHG, ErrorCode: 0, TimeStamp: 94795382357580, TimeStamp1: , TimeStamp2
+: , MessageLength: 450 } }]
+[2025-11-01 11:12:23.495065877+0530][adapter_login_nse.cpp:231][INFO] [AdapterNSE-0] Received message with txn_code: UPDATE_LOCALDB_DATA
+[2025-11-01 11:12:23.495068664+0530][adapter_login_nse.cpp:585][INFO] [AdapterNSE-0] RECEIVED: [MS_UPDATE_LDB_DATA { MessageHeader: MSG_HEADER { TransactionCode: UPDATE_LOCALDB_DATA, LogTime: 0, Alp
+haChar: ^@^@, TraderId: 10170, AlphaChar[0]: 0, ErrorCode: 0, TimeStamp: 94795382357580, TimeStamp1: ^@^@^@^@^@^@^@^@, TimeStamp2: ^@^@^@^@^@^@^@^@, StreamNoByte7: 0, StreamNoByte0: 0, MessageLength
+: 502 }, InnerMessageHeader: INNER_MSG_HEADER { TraderId: 10170, LogTime: 0, AlphaChar: ^@^@, TransactionCode: BCAST_INDEX_MSTR_CHG, ErrorCode: 0, TimeStamp: 94795382357580, TimeStamp1: , TimeStamp2
+: , MessageLength: 450 } }]
+[2025-11-01 11:12:23.495127864+0530][adapter_login_nse.cpp:231][INFO] [AdapterNSE-0] Received message with txn_code: UPDATE_LOCALDB_DATA
+[2025-11-01 11:12:23.495130634+0530][adapter_login_nse.cpp:585][INFO] [AdapterNSE-0] RECEIVED: [MS_UPDATE_LDB_DATA { MessageHeader: MSG_HEADER { TransactionCode: UPDATE_LOCALDB_DATA, LogTime: 0, Alp
+haChar: ^@^@, TraderId: 10170, AlphaChar[0]: 0, ErrorCode: 0, TimeStamp: 94795382357580, TimeStamp1: ^@^@^@^@^@^@^@^@, TimeStamp2: ^@^@^@^@^@^@^@^@, StreamNoByte7: 0, StreamNoByte0: 0, MessageLength
+: 502 }, InnerMessageHeader: INNER_MSG_HEADER { TraderId: 10170, LogTime: 0, AlphaChar: ^@^@, TransactionCode: BCAST_INDEX_MSTR_CHG, ErrorCode: 0, TimeStamp: 94795382357580, TimeStamp1: , TimeStamp2
+: 
+[2025-11-01 11:12:23.496195155+0530][adapter_nse.cpp:941][INFO] [AdapterNSE-0] Is fpga: 0
+[2025-11-01 11:12:23.496197725+0530][adapter_nse.cpp:964][INFO] [AdapterNSE-0] Login complete
+[2025-11-01 11:15:00.011449560+0530][adapter_nse.cpp:930][INFO] [AdapterNSE-0] RECEIVED: [MS_TRADE_CONFIRM_TR [ Transaction data: { TransactionCode: TRADE_CONFIRMATION_TR, LogTime: 1446462900, Timestamp1: 4.68351468751722e-310, Timestamp2: 4.940656458412465e-323 }
+                                                                        Account Details: { TraderID: 10170, AccountNumber: ZRL001    , BrokerID: 90370 }
+                                                                        Static fields: { PAN: AADFZ2451R, AlgoID: 0 }
+                                                                        Unused fields: { BookType: 1, DisclosedVolume: 0, GoodTillDate: 0, , OpenClose: open, DisclosedVolumeRemaining: 0, Participant: 90370        }
+                                                                        Order Metadata: { LastActivityReference: 1446462900011215007, AdditionalOrderFlags:  ADDITIONAL_ORDER_FLAGS { BOC: 0, COL: 1, STPC: 1 } Timestamp: 1446462900011194456, ActivityTime: 1446462900, ActivityType: S  }
+                                                                        Order Metadata: { STOrderFlags:  ST_ORDER_FLAGS { AON: 0, IOC: 0, GTC: 0, DAY: 1, MIT: 0, SL: 0, Market: 0, ATO: 0, Frozen: 0, Modified: 0, Traded: 1, MatchedInd: 0, MF: 0 } }
+                                                                        Contract Info: { TokenNum: 37051, ContractDesc: CONTRACT_DESC_TR { InstrumentName: FUTIDX, Symbol: BANKNIFTY , ExpiryDate: 1448548200, StrikePrice: -1, OptionType: XX } }
+                                                                        Order Data: { OrderNum: 1800000000000141, OriginalVolume: 175, RemainingVolume: 140, Price: 5818900, VolumeFilledToday: 35, BuySellIndicator: sell }
+                                                                        Fill Data: { FillPrice: 5818920, FillQuantity: 35, FillNumber: 16 } ]]
+                                                                Enqueueing trade: { Type: Trade, StratID: 0, Exchange: Unknown, LegInfo: [ Leg1: { InstrIDZanskar: 4294967295, Price: 5818920, Size: 35, Side: SELL } ], OrderIDStrat: -1, OrderIDOMS: <1, [16383]>, OrderIDExch: 1800000000000141, RespSeqNum: -1, ErrorCode: NONE, SizePartialFills: 35, SizeAckedButNotFilled: 140, exchTimestamp: 1761975900011194456, LastActivity: 1446462900011215007, RecvTimestamp: 1761975900011338235, AdapterID: 0, Source: TCP }
+
+[2025-11-01 11:15:00.011450872+0530][adapter_login_nse.cpp:231][INFO] [AdapterNSE-0] Received message with txn_code: TRADE_CONFIRMATION_TR
+[2025-11-01 11:15:00.011451535+0530][adapter_login_nse.cpp:304][INFO] TAP_header_trd: TAP_HEADER { Length: -1024, SequenceNumber: 0, MD5Hash: 9a92cbe9b3c14ae2c48424743170982f }
+[2025-11-01 11:15:00.011450526+0530_THREAD_main][adapter_wrapper.cpp:1341][INFO] [AdapterWrapper] Dequeued response: { Type: Trade, StratID: 0, Exchange: Unknown, LegInfo: [ Leg1: { InstrIDZanskar: 4294967295, Price: 5818920, Size: 35, Side: SELL } ], OrderIDStrat: -1, OrderIDOMS: <1, [16383]>, OrderIDExch: 1800000000000141, RespSeqNum: -1, ErrorCode: NONE, SizePartialFills: 35, SizeAckedButNotFilled: 140, exchTimestamp: 1761975900011194456, LastActivity: 1446462900011215007, RecvTimestamp: 1761975900011338235, AdapterID: 0, Source: TCP }
+[2025-11-01 11:15:00.011450526+0530_THREAD_main][adapter_wrapper.cpp:439][INFO] process_response received ack: { Type: Trade, StratID: 0, Exchange: Unknown, LegInfo: [ Leg1: { InstrIDZanskar: 4294967295, Price: 5818920, Size: 35, Side: SELL } ], OrderIDStrat: -1, OrderIDOMS: <1, [16383]>, OrderIDExch: 1800000000000141, RespSeqNum: -1, ErrorCode: NONE, SizePartialFills: 35, SizeAckedButNotFilled: 140, exchTimestamp: 1761975900011194456, LastActivity: 1446462900011215007, RecvTimestamp: 1761975900011338235, AdapterID: 0, Source: TCP } oms_id_in: <1, [16383]> exch_id: 1800000000000141 oms_id: <1, [16383]>
+[2025-11-01 11:15:00.011450526+0530_THREAD_main][adapter_wrapper.cpp:564][INFO] STATEtcpF: State: {m_oms_order_id: <1, [16383]>, m_exch_order_id: 1800000000000141, m_last_activity_ref: 1446462900011215007, m_acked_volume: 175, m_adapter_id: 0, m_is_ioc: 0, m_tcp_events: 0, m_udp_events: 0, m_total_tcp_fill: 35, m_total_udp_fill: 35}, forward: 1, ack: { Type: Trade, StratID: 0, Exchange: Unknown, LegInfo: [ Leg1: { InstrIDZanskar: 4294967295, Price: 5818920, Size: 35, Side: SELL } ], OrderIDStrat: -1, OrderIDOMS: <1, [16383]>, OrderIDExch: 1800000000000141, RespSeqNum: -1, ErrorCode: NONE, SizePartialFills: 35, SizeAckedButNotFilled: 140, exchTimestamp: 1761975900011194456, LastActivity: 1446462900011215007, RecvTimestamp: 1761975900011338235, AdapterID: 0, Source: TCP }
+[2025-11-01 11:15:00.011450526+0530_THREAD_main][LineHandler.cpp:510][INFO] [LineHandler] Received TRADE: { Type: Trade, StratID: 0, Exchange: Unknown, LegInfo: [ Leg1: { InstrIDZanskar: 6376, Price: 5818920, Size: 35, Side: SELL } ], OrderIDStrat: 0, OrderIDOMS: <1, [16383]>, OrderIDExch: 1800000000000141, RespSeqNum: 2, ErrorCode: NONE, SizePartialFills: 35, SizeAckedButNotFilled: 140, exchTimestamp: 1761975900011194456, LastActivity: 1446462900011215007, RecvTimestamp: 1761975900011338235, AdapterID: 0, Source: TCP }
+[2025-11-01 11:15:00.011450526+0530_THREAD_main][StratMgr.cpp:77][INFO] [StratMgr] Received response: { Type: Trade, StratID: 0, Exchange: Unknown, LegInfo: [ Leg1: { InstrIDZanskar: 6376, Price: 5818920, Size: 35, Side: SELL } ], OrderIDStrat: 0, OrderIDOMS: <1, [16383]>, OrderIDExch: 1800000000000141, RespSeqNum: 2, ErrorCode: NONE, SizePartialFills: 35, SizeAckedButNotFilled: 140, exchTimestamp: 1761975900011194456, LastActivity: 1446462900011215007, RecvTimestamp: 1761975900011338235, AdapterID: 0, Source: TCP }
+[2025-11-01 11:15:00.011458477+0530][adapter_nse.cpp:930][INFO] [AdapterNSE-0] RECEIVED: [MS_TRADE_CONFIRM_TR [ Transaction data: { TransactionCode: TRADE_CONFIRMATION_TR, LogTime: 1446462900, Timestamp1: 4.683514687517269e-310, Timestamp2: 4.940656458412465e-323 }
+                                                                        Account Details: { TraderID: 10170, AccountNumber: ZRL001    , BrokerID: 90370 }
+                                                                        Static fields: { PAN: AADFZ2451R, AlgoID: 0 }
+                                                                        Unused fields: { BookType: 1, DisclosedVolume: 0, GoodTillDate: 0, , OpenClose: open, DisclosedVolumeRemaining: 0, Participant: 90370        }
+                                                                        Order Metadata: { LastActivityReference: 1446462900011228706, AdditionalOrderFlags:  ADDITIONAL_ORDER_FLAGS { BOC: 0, COL: 1, STPC: 1 } Timestamp: 1446462900011194456, ActivityTime: 1446462900, ActivityType: S  }
+[2025-11-01 11:15:00.011449560+0530][adapter_nse.cpp:930][INFO] [AdapterNSE-0] RECEIVED: [MS_TRADE_CONFIRM_TR [ Transaction data: { TransactionCode: TRADE_CONFIRMATION_TR, LogTime: 1446462900, Timestamp1: 4.68351468751722e-310, Timestamp2: 4.940656458412465e-323 }
+                                                                        Account Details: { TraderID: 10170, AccountNumber: ZRL001    , BrokerID: 90370 }
+                                                                        Static fields: { PAN: AADFZ2451R, AlgoID: 0 }
+                                                                        Unused fields: { BookType: 1, DisclosedVolume: 0, GoodTillDate: 0, , OpenClose: open, DisclosedVolumeRemaining: 0, Participant: 90370        }
+                                                                        Order Metadata: { LastActivityReference: 1446462900011215007, AdditionalOrderFlags:  ADDITIONAL_ORDER_FLAGS { BOC: 0, COL: 1, STPC: 1 } Timestamp: 1446462900011194456, ActivityTime: 1446462900, ActivityType: S  }
+                                                                        Order Metadata: { STOrderFlags:  ST_ORDER_FLAGS { AON: 0, IOC: 0, GTC: 0, DAY: 1, MIT: 0, SL: 0, Market: 0, ATO: 0, Frozen: 0, Modified: 0, Traded: 1, MatchedInd: 0, MF: 0 } }
+                                                                        Contract Info: { TokenNum: 37051, ContractDesc: CONTRACT_DESC_TR { InstrumentName: FUTIDX, Symbol: BANKNIFTY , ExpiryDate: 1448548200, StrikePrice: -1, OptionType: XX } }
+                                                                        Order Data: { OrderNum: 1800000000000141, OriginalVolume: 175, RemainingVolume: 140, Price: 5818900, VolumeFilledToday: 35, BuySellIndicator: sell }
+                                                                        Fill Data: { FillPrice: 5818920, FillQuantity: 35, FillNumber: 16 } ]]
+                                                                Enqueueing trade: { Type: Trade, StratID: 0, Exchange: Unknown, LegInfo: [ Leg1: { InstrIDZanskar: 4294967295, Price: 5818920, Size: 35, Side: SELL } ], OrderIDStrat: -1, OrderIDOMS: <1, [16383]>, OrderIDExch: 1800000000000141, RespSeqNum: -1, ErrorCode: NONE, SizePartialFills: 35, SizeAckedButNotFilled: 140, exchTimestamp: 1761975900011194456, LastActivity: 1446462900011215007, RecvTimestamp: 1761975900011338235, AdapterID: 0, Source: TCP }
+
+[2025-11-01 11:15:00.011450872+0530][adapter_login_nse.cpp:231][INFO] [AdapterNSE-0] Received message with txn_code: TRADE_CONFIRMATION_TR
+[2025-11-01 11:15:00.011451535+0530][adapter_login_nse.cpp:304][INFO] TAP_header_trd: TAP_HEADER { Length: -1024, SequenceNumber: 0, MD5Hash: 9a92cbe9b3c14ae2c48424743170982f }
+[2025-11-01 11:15:00.011450526+0530_THREAD_main][adapter_wrapper.cpp:1341][INFO] [AdapterWrapper] Dequeued response: { Type: Trade, StratID: 0, Exchange: Unknown, LegInfo: [ Leg1: { InstrIDZanskar: 4294967295, Price: 5818920, Size: 35, Side: SELL } ], OrderIDStrat: -1, OrderIDOMS: <1, [16383]>, OrderIDExch: 1800000000000141, RespSeqNum: -1, ErrorCode: NONE, SizePartialFills: 35, SizeAckedButNotFilled: 140, exchTimestamp: 1761975900011194456, LastActivity: 1446462900011215007, RecvTimestamp: 1761975900011338235, AdapterID: 0, Source: TCP }
+[2025-11-01 11:15:00.011450526+0530_THREAD_main][adapter_wrapper.cpp:439][INFO] process_response received ack: { Type: Trade, StratID: 0, Exchange: Unknown, LegInfo: [ Leg1: { InstrIDZanskar: 4294967295, Price: 5818920, Size: 35, Side: SELL } ], OrderIDStrat: -1, OrderIDOMS: <1, [16383]>, OrderIDExch: 1800000000000141, RespSeqNum: -1, ErrorCode: NONE, SizePartialFills: 35, SizeAckedButNotFilled: 140, exchTimestamp: 1761975900011194456, LastActivity: 1446462900011215007, RecvTimestamp: 1761975900011338235, AdapterID: 0, Source: TCP } oms_id_in: <1, [16383]> exch_id: 1800000000000141 oms_id: <1, [16383]>
+[2025-11-01 11:15:00.011450526+0530_THREAD_main][adapter_wrapper.cpp:564][INFO] STATEtcpF: State: {m_oms_order_id: <1, [16383]>, m_exch_order_id: 1800000000000141, m_last_activity_ref: 1446462900011215007, m_acked_volume: 175, m_adapter_id: 0, m_is_ioc: 0, m_tcp_events: 0, m_udp_events: 0, m_total_tcp_fill: 35, m_total_udp_fill: 35}, forward: 1, ack: { Type: Trade, StratID: 0, Exchange: Unknown, LegInfo: [ Leg1: { InstrIDZanskar: 4294967295, Price: 5818920, Size: 35, Side: SELL } ], OrderIDStrat: -1, OrderIDOMS: <1, [16383]>, OrderIDExch: 1800000000000141, RespSeqNum: -1, ErrorCode: NONE, SizePartialFills: 35, SizeAckedButNotFilled: 140, exchTimestamp: 1761975900011194456, LastActivity: 1446462900011215007, RecvTimestamp: 1761975900011338235, AdapterID: 0, Source: TCP }
+[2025-11-01 11:15:00.011450526+0530_THREAD_main][LineHandler.cpp:510][INFO] [LineHandler] Received TRADE: { Type: Trade, StratID: 0, Exchange: Unknown, LegInfo: [ Leg1: { InstrIDZanskar: 6376, Price: 5818920, Size: 35, Side: SELL } ], OrderIDStrat: 0, OrderIDOMS: <1, [16383]>, OrderIDExch: 1800000000000141, RespSeqNum: 2, ErrorCode: NONE, SizePartialFills: 35, SizeAckedButNotFilled: 140, exchTimestamp: 1761975900011194456, LastActivity: 1446462900011215007, RecvTimestamp: 1761975900011338235, AdapterID: 0, Source: TCP }
+[2025-11-01 11:15:00.011450526+0530_THREAD_main][StratMgr.cpp:77][INFO] [StratMgr] Received response: { Type: Trade, StratID: 0, Exchange: Unknown, LegInfo: [ Leg1: { InstrIDZanskar: 6376, Price: 5818920, Size: 35, Side: SELL } ], OrderIDStrat: 0, OrderIDOMS: <1, [16383]>, OrderIDExch: 1800000000000141, RespSeqNum: 2, ErrorCode: NONE, SizePartialFills: 35, SizeAckedButNotFilled: 140, exchTimestamp: 1761975900011194456, LastActivity: 1446462900011215007, RecvTimestamp: 1761975900011338235, AdapterID: 0, Source: TCP }
+[2025-11-01 11:15:00.011458477+0530][adapter_nse.cpp:930][INFO] [AdapterNSE-0] RECEIVED: [MS_TRADE_CONFIRM_TR [ Transaction data: { TransactionCode: TRADE_CONFIRMATION_TR, LogTime: 1446462900, Timestamp1: 4.683514687517269e-310, Timestamp2: 4.940656458412465e-323 }
+                                                                        Account Details: { TraderID: 10170, AccountNumber: ZRL001    , BrokerID: 90370 }
+                                                                        Static fields: { PAN: AADFZ2451R, AlgoID: 0 }
+                                                                        Unused fields: { BookType: 1, DisclosedVolume: 0, GoodTillDate: 0, , OpenClose: open, DisclosedVolumeRemaining: 0, Participant: 90370        }
+                                                                        Order Metadata: { LastActivityReference: 1446462900011228706, AdditionalOrderFlags:  ADDITIONAL_ORDER_FLAGS { BOC: 0, COL: 1, STPC: 1 } Timestamp: 1446462900011194456, ActivityTime: 1446462900, ActivityType: S  }
+[2025-11-01 11:15:00.011459202+0530][adapter_login_nse.cpp:231][INFO] [AdapterNSE-0] Received message with txn_code: ORDER_CONFIRMATION_TR
+[2025-11-01 11:15:00.011459837+0530][adapter_login_nse.cpp:282][INFO] TAP_header_modcxl: TAP_HEADER { Length: 1537, SequenceNumber: 201326592, MD5Hash: daf6da8e48b045abbbdfe0d19c9cf621 }
+[2025-11-01 11:15:00.011450526+0530_THREAD_main][mock_strategy.cpp:200][INFO] [MockStrategy] Received FILL: { Type: Trade, StratID: 0, Exchange: Unknown, LegInfo: [ Leg1: { InstrIDZanskar: 6376, Price: 5818920, Size: 35, Side: SELL } ], OrderIDStrat: 0, OrderIDOMS: <1, [16383]>, OrderIDExch: 1800000000000141, RespSeqNum: 2, ErrorCode: NONE, SizePartialFills: 35, SizeAckedButNotFilled: 140, exchTimestamp: 1761975900011194456, LastActivity: 1446462900011215007, RecvTimestamp: 1761975900011338235, AdapterID: 0, Source: TCP }
+[2025-11-01 11:15:00.011450526+0530_THREAD_main][adapter_wrapper.cpp:1341][INFO] [AdapterWrapper] Dequeued response: { Type: Trade, StratID: 0, Exchange: Unknown, LegInfo: [ Leg1: { InstrIDZanskar: 4294967295, Price: 5818900, Size: 140, Side: SELL } ], OrderIDStrat: -1, OrderIDOMS: <1, [16383]>, OrderIDExch: 1800000000000141, RespSeqNum: -1, ErrorCode: NONE, SizePartialFills: 175, SizeAckedButNotFilled: 0, exchTimestamp: 1761975900011194456, LastActivity: 1446462900011228706, RecvTimestamp: 1761975900011338235, AdapterID: 0, Source: TCP }
+[2025-11-01 11:15:00.011450526+0530_THREAD_main][adapter_wrapper.cpp:439][INFO] process_response received ack: { Type: Trade, StratID: 0, Exchange: Unknown, LegInfo: [ Leg1: { InstrIDZanskar: 4294967295, Price: 5818900, Size: 140, Side: SELL } ], OrderIDStrat: -1, OrderIDOMS: <1, [16383]>, OrderIDExch: 1800000000000141, RespSeqNum: -1, ErrorCode: NONE, SizePartialFills: 175, SizeAckedButNotFilled: 0, exchTimestamp: 1761975900011194456, LastActivity: 1446462900011228706, RecvTimestamp: 1761975900011338235, AdapterID: 0, Source: TCP } oms_id_in: <1, [16383]> exch_id: 1800000000000141 oms_id: <1, [16383]>
+[2025-11-01 11:15:00.011466881+0530][adapter_nse.cpp:831][INFO] [AdapterNSE-0] RECEIVED: [MS_OE_RESPONSE_TR [ Transaction data: { TransactionCode: ORDER_CONFIRMATION_TR, ErrorCode: SUCCESS, LogTime: 1446462900, Timestamp1: 94795392615140, Timestamp2: 
+                                                                 }
+                                                                        Account Details: { UserID: 10170, TraderID: 10170, AccountNumber: ZRL001    , BrokerID: 90370, Settlor: 90370        ProClientIndicator: client }
+                                                                        Static fields: { BranchID: 1, NNFField: 560025002006100, PAN: AADFZ2451R, AlgoID: 0 }
+                                                                        Unused fields: { BookType: regular_lot, DisclosedVolume: 0, GoodTillDate: 0, OpenClose: open }
+                                                                        Unused fields: { LastModified: 1446462900, EntryDateTime: 1446462900, DisclosedVolumeRemaining: 0, CloseOutFlag:   }
+                                                                        Order Metadata: { LastActivityReference: 1446462900011233985, AdditionalOrderFlags:  ADDITIONAL_ORDER_FLAGS { BOC: 0, COL: 1, STPC: 0 } Timestamp: 1446462900011233985, ReasonCode: 0, ModifiedCancelledBy: def }
+                                                                        Order Metadata: { STOrderFlags:  ST_ORDER_FLAGS { AON: 0, IOC: 0, GTC: 0, DAY: 1, MIT: 0, SL: 0, Market: 0, ATO: 0, Frozen: 0, Modified: 0, Traded: 0, MatchedInd: 0, MF: 0 } }
+                                                                        Contract Info: { TokenNum: 37051, ContractDesc: CONTRACT_DESC_TR { InstrumentName: FUTIDX, Symbol: BANKNIFTY , ExpiryDate: 1448548200, StrikePrice: -1, OptionType: XX } }
+                                                                        Order Data: { OrderNum: 1800000000000142, TotalVolumeRemaining: 175, VolumeFilledToday: 0 }
+                                                                        Order Data: { Price: 5842500, Volume: 175, BuySellIndicator: buy, Filler / ClientOrderID: 2 } ]]
+                                                                Enqueueing ack: { Type: Limit_New_Ack, StratID: 0, Exchange: NSE, LegInfo: [ Leg1: { InstrIDZanskar: 4294967295, Price: 5842500, Size: 175, Side: BUY } ], OrderIDStrat: -1, OrderIDOMS: <2, [16382]>, OrderIDExch: 1800000000000142, RespSeqNum: -1, ErrorCode: NONE, SizePartialFills: 0, SizeAckedButNotFilled: 0, exchTimestamp: 1761975900011233985, LastActivity: 1446462900011233985, RecvTimestamp: 1761975900011338235, AdapterID: 0, Source: TCP }
+
+[2025-11-01 11:15:00.011467751+0530][adapter_login_nse.cpp:231][INFO] [AdapterNSE-0] Received message with txn_code: TRADE_CONFIRMATION_TR
+[2025-11-01 11:15:00.011450526+0530_THREAD_main][adapter_wrapper.cpp:564][INFO] STATEtcpF: State: {m_oms_order_id: <1, [16383]>, m_exch_order_id: 1800000000000141, m_last_activity_ref: 1446462900011228706, m_acked_volume: 175, m_adapter_id: 0, m_is_ioc: 0, m_tcp_events: 0, m_udp_events: 0, m_total_tcp_fill: 175, m_total_udp_fill: 175}, forward: 1, ack: { Type: Trade, StratID: 0, Exchange: Unknown, LegInfo: [ Leg1: { InstrIDZanskar: 4294967295, Price: 5818900, Size: 140, Side: SELL } ], OrderIDStrat: -1, OrderIDOMS: <1, [16383]>, OrderIDExch: 1800000000000141, RespSeqNum: -1, ErrorCode: NONE, SizePartialFills: 175, SizeAckedButNotFilled: 0, exchTimestamp: 1761975900011194456, LastActivity: 1446462900011228706, RecvTimestamp: 1761975900011338235, AdapterID: 0, Source: TCP }
+[2025-11-01 11:15:00.011468284+0530][adapter_login_nse.cpp:304][INFO] TAP_header_trd: TAP_HEADER { Length: -1024, SequenceNumber: 0, MD5Hash: 88f3aed8863463bd20577ba81cdeb872 }
+[2025-11-01 11:15:00.011450526+0530_THREAD_main][LineHandler.cpp:510][INFO] [LineHandler] Received TRADE: { Type: Trade, StratID: 0, Exchange: Unknown, LegInfo: [ Leg1: { InstrIDZanskar: 6376, Price: 5818900, Size: 140, Side: SELL } ], OrderIDStrat: 0, OrderIDOMS: <1, [16383]>, OrderIDExch: 1800000000000141, RespSeqNum: 3, ErrorCode: NONE, SizePartialFills: 175, SizeAckedButNotFilled: 0, exchTimestamp: 1761975900011194456, LastActivity: 1446462900011228706, RecvTimestamp: 1761975900011338235, AdapterID: 0, Source: TCP }
+[2025-11-01 11:15:00.011450526+0530_THREAD_main][StratMgr.cpp:77][INFO] [StratMgr] Received response: { Type: Trade, StratID: 0, Exchange: Unknown, LegInfo: [ Leg1: { InstrIDZanskar: 6376, Price: 5818900, Size: 140, Side: SELL } ], OrderIDStrat: 0, OrderIDOMS: <1, [16383]>, OrderIDExch: 1800000000000141, RespSeqNum: 3, ErrorCode: NONE, SizePartialFills: 175, SizeAckedButNotFilled: 0, exchTimestamp: 1761975900011194456, LastActivity: 1446462900011228706, RecvTimestamp: 1761975900011338235, AdapterID: 0, Source: TCP }
+[2025-11-01 11:15:00.011450526+0530_THREAD_main][mock_strategy.cpp:200][INFO] [MockStrategy] Received FILL: { Type: Trade, StratID: 0, Exchange: Unknown, LegInfo: [ Leg1: { InstrIDZanskar: 6376, Price: 5818900, Size: 140, Side: SELL } ], OrderIDStrat: 0, OrderIDOMS: <1, [16383]>, OrderIDExch: 1800000000000141, RespSeqNum: 3, ErrorCode: NONE, SizePartialFills: 175, SizeAckedButNotFilled: 0, exc
+[2025-11-01 11:15:00.011513797+0530][adapter_login_nse.cpp:231][INFO] [AdapterNSE-0] Received message with txn_code: ORDER_CXL_CONFIRMATION_TR
+[2025-11-01 11:15:00.011514241+0530][adapter_login_nse.cpp:282][INFO] TAP_header_modcxl: TAP_HEADER { Length: 1537, SequenceNumber: 201326592, MD5Hash: cb695bd0ca772b0faea93c05572770f8 }
+[2025-11-01 11:15:00.011450526+0530_THREAD_main][adapter_wrapper.cpp:1341][INFO] [AdapterWrapper] Dequeued response: { Type: Limit_New_Ack, StratID: 0, Exchange: NSE, LegInfo: [ Leg1: { InstrIDZanskar: 4294967295, Price: 98800, Size: 175, Side: BUY } ], OrderIDStrat: -1, OrderIDOMS: <3, [16381]>, OrderIDExch: 1800000000000143, RespSeqNum: -1, ErrorCode: NONE, SizePartialFills: 0, SizeAckedButNotFilled: 0, exchTimestamp: 1761975900011252314, LastActivity: 1446462900011252314, RecvTimestamp: 1761975900011338235, AdapterID: 0, Source: TCP }
+[2025-11-01 11:15:00.011450526+0530_THREAD_main][adapter_wrapper.cpp:439][INFO] process_response received ack: { Type: Limit_New_Ack, StratID: 0, Exchange: NSE, LegInfo: [ Leg1: { InstrIDZanskar: 4294967295, Price: 98800, Size: 175, Side: BUY } ], OrderIDStrat: -1, OrderIDOMS: <3, [16381]>, OrderIDExch: 1800000000000143, RespSeqNum: -1, ErrorCode: NONE, SizePartialFills: 0, SizeAckedButNotFilled: 0, exchTimestamp: 1761975900011252314, LastActivity: 1446462900011252314, RecvTimestamp: 1761975900011338235, AdapterID: 0, Source: TCP } oms_id_in: <3, [16381]> exch_id: 1800000000000143 oms_id: <3, [16381]>
+[2025-11-01 11:15:00.011450526+0530_THREAD_main][adapter_wrapper.cpp:564][INFO] STATEtcpF: State: {m_oms_order_id: <3, [16381]>, m_exch_order_id: 1800000000000143, m_last_activity_ref: 1446462900011252314, m_acked_volume: 175, m_adapter_id: 0, m_is_ioc: 0, m_tcp_events: 0, m_udp_events: 0, m_total_tcp_fill: 0, m_total_udp_fill: 0}, forward: 1, ack: { Type: Limit_New_Ack, StratID: 0, Exchange: NSE, LegInfo: [ Leg1: { InstrIDZanskar: 4294967295, Price: 98800, Size: 175, Side: BUY } ], OrderIDStrat: -1, OrderIDOMS: <3, [16381]>, OrderIDExch: 1800000000000143, RespSeqNum: -1, ErrorCode: NONE, SizePartialFills: 0, SizeAckedButNotFilled: 0, exchTimestamp: 1761975900011252314, LastActivity: 1446462900011252314, RecvTimestamp: 1761975900011338235, AdapterID: 0, Source: TCP }
+[2025-11-01 11:15:00.011522082+0530]ESC[40;31;1m [adapter_nse.cpp:795][WARN] Unusual ack: MS_OE_RESPONSE_TR [ Transaction data: { TransactionCode: ORDER_CXL_CONFIRMATION_TR, ErrorCode: ORDER_CANCELLED_FOR_SELF_TRADE, LogTime: 1446462900, Timestamp1: 94795392615152, Timestamp2: 
+                                                                        }
+                                                                        Account Details: { UserID: 10170, TraderID: 10170, AccountNumber: ZRL001    , BrokerID: 90370, Settlor: 90370        ProClientIndicator: client }
+                                                                        Static fields: { BranchID: 1, NNFField: 560025002006100, PAN: AADFZ2451R, AlgoID: 0 }
+                                                                        Unused fields: { BookType: regular_lot, DisclosedVolume: 0, GoodTillDate: 0, OpenClose: open }
+                                                                        Unused fields: { LastModified: 1446462900, EntryDateTime: 1446462900, DisclosedVolumeRemaining: 0, CloseOutFlag:   }
+                                                                        Order Metadata: { LastActivityReference: 1446462900011262801, AdditionalOrderFlags:  ADDITIONAL_ORDER_FLAGS { BOC: 0, COL: 1, STPC: 0 } Timestamp: 1446462900011262801, ReasonCode: 0, ModifiedCancelledBy: def }
+                                                                        Order Metadata: { STOrderFlags:  ST_ORDER_FLAGS { AON: 0, IOC: 0, GTC: 0, DAY: 1, MIT: 0, SL: 0, Market: 0, ATO: 0, Frozen: 0, Modified: 0, Traded: 1, MatchedInd: 0, MF: 0 } }
+                                                                        Contract Info: { TokenNum: 37051, ContractDesc: CONTRACT_DESC_TR { InstrumentName: FUTIDX, Symbol: BANKNIFTY , ExpiryDate: 1448548200, StrikePrice: -1, OptionType: XX } }
+                                                                        Order Data: { OrderNum: 1800000000000142, TotalVolumeRemaining: 35, VolumeFilledToday: 140 }
+                                                                        Order Data: { Price: 5842500, Volume: 175, BuySellIndicator: buy, Filler / ClientOrderID: 2 } ]ESC[0m
+
+[2025-11-01 11:15:00.011450526+0530_THREAD_main][LineHandler.cpp:348][INFO] [LineHandler] Received Ack: { Type: Limit_New_Ack, StratID: 0, Exchange: NSE, LegInfo: [ Leg1: { InstrIDZanskar: 4294967295, Price: 98800, Size: 175, Side: BUY } ], OrderIDStrat: -1, OrderIDOMS: <3, [16381]>, OrderIDExch: 1800000000000143, RespSeqNum: -1, ErrorCode: NONE, SizePartialFills: 0, SizeAckedButNotFilled: 0, exchTimestamp: 1761975900011252314, LastActivity: 1446462900011252314, RecvTimestamp: 1761975900011338235, AdapterID: 0, Source: TCP }
+[2025-11-01 11:15:00.011450526+0530_THREAD_main][StratMgr.cpp:77][INFO] [StratMgr] Received response: { Type: Limit_New_Ack, StratID: 0, Exchange: NSE, LegInfo: [ Leg1: { InstrIDZanskar: 4514, Price: 98800, Size: 175, Side: BUY } ], OrderIDStrat: 2, OrderIDOMS: <3, [16381]>, OrderIDExch: 1800000000000143, RespSeqNum: 1, ErrorCode: NONE, SizePartialFills: 0, SizeAckedButNotFilled: 0, exchTimestamp: 1761975900011252314, LastActivity: 1446462900011252314, RecvTimestamp: 1761975900011338235, AdapterID: 0, Source: TCP }
+[2025-11-01 11:15:00.011450526+0530_THREAD_main][mock_strategy.cpp:133][INFO] [MockStrategy] Received ACK: { Type: Limit_New_Ack, StratID: 0, Exchange: NSE, LegInfo: [ Leg1: { InstrIDZanskar: 4514, Price: 98800, Size: 175, Side: BUY } ], OrderIDStrat: 2, OrderIDOMS: <3, [16381]>, OrderIDExch: 1800000000000143, RespSeqNum: 1, ErrorCode: NONE, SizePartialFills: 0, SizeAckedButNotFilled: 0, exchTimestamp: 1761975900011252314, LastActivity: 1446462900011252314, RecvTimestamp: 1761975900011338235, AdapterID: 0, Source: TCP }
+[2025-11-01 11:15:00.011450526+0530_THREAD_main][adapter_wrapper.cpp:1341][INFO] [AdapterWrapper] Dequeued response: { Type: Trade, StratID: 0, Exchange: Unknown, LegInfo: [ Leg1: { InstrIDZanskar: 4294967295, Price: 98800, Size: 35, Side: BUY } ], OrderIDStrat: -1, OrderIDOMS: <3, [16381]>, OrderIDExch: 1800000000000143, RespSeqNum: -1, ErrorCode: NONE, SizePartialFills: 35, SizeAckedButNotFilled: 140, exchTimestamp: 1761975900011252314, LastActivity: 1446462900011256339, RecvTimestamp: 1761975900011494671, AdapterID: 0, Source: TCP }
+[2025-11-01 11:15:00.011528093+0530][adapter_nse.cpp:831][INFO] [AdapterNSE-0] RECEIVED: [MS_OE_RESPONSE_TR [ Transaction data: { TransactionCode: ORDER_CXL_CONFIRMATION_TR, ErrorCode: ORDER_CANCELLED_FOR_SELF_TRADE, LogTime: 1446462900, Timestamp1: 94795392615152, Timestamp2: 
+                                                                 }
+                                                                        Account Details: { UserID: 10170, TraderID: 10170, AccountNumber: ZRL001    , BrokerID: 90370, Settlor: 90370        ProClient
